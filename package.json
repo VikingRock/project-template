@@ -1,0 +1,40 @@
+{
+  "name": "CV",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CV template",
+  "author": "Alex Zi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VikingRock/CV"
+  },
+  "homepage": "https://github.com/VikingRock/CV",
+  "dependencies": {},
+  "scripts": {
+    "test": "gulp lint",
+    "start": "gulp start"
+  },
+  "engines": {
+    "node": "^6.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "del": "^2.2.1",
+    "eclint": "^1.1.5",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.0.2",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
